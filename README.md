@@ -13,6 +13,25 @@ We are using a pre-prepared dataset consisting of weather and climate informatio
 
 There are provided with two datasets:
 
-- train_data.csv: the training dataset, where contest-tmp2m-14d__tmp2m, the arithmetic mean of the max and min observed temperature over the next 14 days for each location and start date, is provided
-- test_data.csv: the test dataset, where we withhold the true value of contest-tmp2m-14d__tmp2m for each row.
+- **train_data.csv**: the training dataset, where contest-tmp2m-14d__tmp2m, the arithmetic mean of the max and min observed temperature over the next 14 days for each location and start date, is provided
+- **test_data.csv**: the test dataset, where we withhold the true value of contest-tmp2m-14d__tmp2m for each row.
+
+The  detailed information of variables can be found at: https://www.kaggle.com/competitions/widsdatathon2023/data
+
+## Data Inspection & EDA & Feature Engineering
+The detailed processes can be found in our notebook.
+
+
+## Experimental result
+Model         | RMSE
+------------- | -------------
+Random Forest | 2.304
+XGBoost | 1.32
+CatBoost  | 0.98
+TabNet | 0.984
+LightGBM  | 0.907
+Ensemble model  | 0.739
+
+## Achievement
+With 85 submissions only, our team of 4 reached position 31/697 teams from all over the world, became the top 5 team in Vietnam leaderboard.
 

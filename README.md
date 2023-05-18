@@ -16,7 +16,7 @@ There are provided with two datasets:
 - **train_data.csv**: the training dataset, where contest-tmp2m-14d__tmp2m, the arithmetic mean of the max and min observed temperature over the next 14 days for each location and start date, is provided
 - **test_data.csv**: the test dataset, where we withhold the true value of contest-tmp2m-14d__tmp2m for each row.
 
-The  detailed information of variables can be found at: 
+The  detailed information of variables can be found at: https://github.com/maixbach/WiDS-2023-NEUDolphins/tree/main/datasets
 You can download the dataset at: https://www.kaggle.com/competitions/widsdatathon2023/data
 
 ## Data Inspection & EDA & Feature Engineering

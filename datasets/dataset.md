@@ -101,11 +101,11 @@ climateregions: Köppen-Geigerclimateclassifications
 ## Variables without prefix
 Some variables do not have a prefix. Instead, each variable name in its entirely indicates the information the variable captures.
 
-lat: latitude of location (anonymized)
-lon: longitude of location (anonymized)
-startdate: startdate of the 14 day period
-sst: sea surface temperature
-icec: sea ice concentration
-cancm30, cancm40, ccsm30, ccsm40, cfsv20, gfdlflora0, gfdlflorb0, gfdl0, nasa0, nmme0mean: most recent forecasts from weather models
+- lat: latitude of location (anonymized)
+- lon: longitude of location (anonymized)
+- startdate: startdate of the 14 day period
+- sst: sea surface temperature
+- icec: sea ice concentration
+- cancm30, cancm40, ccsm30, ccsm40, cfsv20, gfdlflora0, gfdlflorb0, gfdl0, nasa0, nmme0mean: most recent forecasts from weather models
 ## Target
 contest-tmp2m-14d__tmp2m: the arithmetic mean of the max and min observed temperature over the next 14 days for each location and start date, computed as (measured max temperature + measured mini temperature) / 2

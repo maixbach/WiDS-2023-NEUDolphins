@@ -27,8 +27,8 @@ Model         | RMSE
 ------------- | -------------
 Random Forest | 2.304
 XGBoost | 1.32
-CatBoost  | 0.98
 TabNet | 0.984
+CatBoost  | 0.98
 LightGBM  | 0.907
 Ensemble model  | 0.739
 

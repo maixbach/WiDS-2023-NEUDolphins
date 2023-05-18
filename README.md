@@ -17,10 +17,14 @@ There are provided with two datasets:
 - **test_data.csv**: the test dataset, where we withhold the true value of contest-tmp2m-14d__tmp2m for each row.
 
 The  detailed information of variables can be found at: https://github.com/maixbach/WiDS-2023-NEUDolphins/tree/main/datasets
+
 You can download the dataset at: https://www.kaggle.com/competitions/widsdatathon2023/data
 
-## Data Inspection & EDA & Feature Engineering
+## Data Inspection & EDA & Feature Engineering & Modeling
 The detailed processes can be found in our notebook.
+- Data inspection: https://github.com/maixbach/WiDS-2023-NEUDolphins/tree/main/data%20inspection
+- Detailed EDA & Feature Engineering: https://github.com/maixbach/WiDS-2023-NEUDolphins/blob/main/notebooks/WiD2023_Datathon_TabNet.ipynb
+- Modeling: Can be found in each notebook for each model we utilized.
 
 
 ## Experimental result
